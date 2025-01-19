@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://artena8.github.io/PortfolioBUT3/portfolio/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.121.2",
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +42,7 @@
     "@types/react-dom": "^19.0.3",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3"
   }
