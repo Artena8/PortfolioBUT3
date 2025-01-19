@@ -1,0 +1,66 @@
+{
+    "Planification": {
+        "titre": "Planification",
+        "description": "Gérer des projets",
+        "competences": [
+            "Méthode Agile",
+            "Scrum",
+            "Suite Atlassian",
+            "Microsoft Project (en apprentissage)"
+        ]
+    },
+    "FRONT END": {
+        "titre": "FRONT END",
+        "description": "Interaction Utilisateur",
+        "competences": [
+            "HTML5",
+            "CSS / SCSS",
+            "Javascript",
+            "Bootstrap",
+            "PowerApps / Power Automate (en apprentissage)"
+        ]
+    },
+    "BACK-END": {
+        "titre": "BACK-END",
+        "description": "Fonctionnement du programme",
+        "competences": [
+            "PHP",
+            "JAVA (IntelliJ / Eclipse)",
+            "Python",
+            "C#",
+            "ASP .NET",
+            "C"
+        ]
+    },
+    "GESTION DONNEES": {
+        "titre": "GESTION DONNEES",
+        "description": "Stocker les données",
+        "competences": [
+            "SQL",
+            "PostGreSQL",
+            "MySQL",
+            "MongoDB"
+        ]
+    },
+    "DevOps": {
+        "titre": "DevOps",
+        "description": "Intégrer les processus dans une équipe",
+        "competences": [
+            "Linux",
+            "Windows",
+            "Visual Studio / Visual Studio Code",
+            "Github",
+            "SVN"
+        ]
+    },
+    "UI UX": {
+        "titre": "UI UX",
+        "description": "Se créer un personal branding",
+        "competences": [
+            "Figma",
+            "SVGator",
+            "Clip Paint Studio",
+            "Design Thinking"
+        ]
+    }
+}
