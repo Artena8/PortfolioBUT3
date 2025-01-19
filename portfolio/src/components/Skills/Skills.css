@@ -1,0 +1,151 @@
+.Skills{
+    background-color: var(--Skills);
+    padding-bottom: 1% ;
+    padding: 5%;
+}
+
+.Skills .container {
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 3%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    min-height: calc(100vh - 193px - 90px);
+}
+
+.cards-row-1 {
+    width: 100%;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-flow: wrap;
+    flex: 0 auto;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.competence-card {
+    width: 100%;
+    max-width: 400px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    border: 1px solid var(--Art);
+    border-radius: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+    display: flex;
+}
+
+.card-title-container {
+    width: 90%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-title-container-2 {
+    width: 100%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bullet-points-container {
+    width: 100%;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+}
+
+.vectors-wrapper-4 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-title {
+    text-align: center;
+    font-family: LEMONMILK, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card-subtitle {
+    color: var(--Art);
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.text-lg-regular {
+    color: var(--ecriture);
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@media (max-width: 600px) {
+    .Skills .langue .prog p {
+        margin: auto auto;
+        width: auto!important;
+    }
+
+    .Skills p {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .Skills h3 {
+        font-size: 3vw;
+    }
+
+    .toolsies {
+        margin: auto;
+    }
+
+    .toolsies .outil {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    .Skills p {
+        font-size: 60%;
+    }
+}
+

@@ -1,0 +1,130 @@
+.APropos{
+    background-color: var(--Propos);
+    padding-bottom: 2%;
+}
+
+.APropos .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.APropos .Moi {
+    padding: 0% 5% 0% 5%;
+}
+
+.APropos h2 {
+    font-size: 7.5vw;
+    text-align: center;
+}
+  
+.APropos .text {
+    flex: 2;
+    text-align: justify;  
+}
+
+.APropos .text p b {
+    color: var(--Art);
+    font-size: larger;
+}
+  
+.APropos .image {
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+}
+  
+.APropos .image img {
+    height: 500px;
+    border-radius: 10% 0% 10% 0%;
+    max-width: 100%;
+    padding: 1%;
+}
+
+.APropos .btncv{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    background-color: var(--Art);
+    border-radius: 1px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 25%;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.APropos .btncv:hover{
+    background-image: var(--gradient);
+    border: 4px double #ffffff;
+}
+  
+@media (max-width: 1380px) {
+    .APropos .text {
+        flex: 2;
+        text-align: justify;
+    }
+    
+    .APropos .image {
+        display: flex;
+        flex: 1.5;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .APropos .content {
+      flex-direction: column-reverse;
+    }
+    
+    .APropos .content .image, .text {
+      flex: initial;
+    }
+    
+    .APropos .content .image img {
+      max-width: 50%;
+      margin: auto;
+      height: auto;
+    }
+
+    .APropos .btncv {
+        width: 80%;
+    }
+
+}
+  
+@media (max-width: 600px) {
+    .APropos h2 {
+        font-size: 6vw;
+    }
+
+
+}
+
+@media (max-width: 300px) {
+    .APropos .btncv {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .APropos .content .image img {
+        max-width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    .APropos h2{
+        display: none;
+    }
+
+
+}

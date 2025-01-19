@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                         /* Spécifie la version JavaScript cible pour la sortie */
+    "module": "commonjs",                        /* Spécifie le module code généré */
+    "jsx": "react-jsx",                          /* Indique que le JSX est transformé selon React 17+ */
+    "esModuleInterop": true,                     /* Active l'importation des modules CommonJS */
+    "forceConsistentCasingInFileNames": true,    /* Assure une casse cohérente dans les noms de fichiers */
+    "strict": true,                              /* Active toutes les options strictes de vérification de type */
+    "skipLibCheck": true,                        /* Ignore la vérification des types dans les fichiers .d.ts */
+    "moduleResolution": "node",                  /* Résolution des modules basée sur Node.js */
+    "resolveJsonModule": true,                   /* Permet l'importation de fichiers .json */
+    "allowJs": true,                             /* Autorise l'inclusion de fichiers JavaScript dans le projet */
+    "isolatedModules": true,                     /* Assure la sécurité de chaque fichier individuellement */
+    "noEmit": true,                              /* Empêche l'émission de fichiers (utile pour du type-checking uniquement) */
+    "skipDefaultLibCheck": true,                 /* Ignore la vérification des fichiers de lib de TypeScript par défaut */
+    "declaration": true,                         /* Génère des fichiers .d.ts pour les types */
+    "declarationMap": true,                      /* Crée des cartes de source pour les fichiers .d.ts */
+    "sourceMap": true,                           /* Crée des fichiers de carte source pour le JavaScript émis */
+    "outDir": "./build",                         /* Dossier de sortie pour les fichiers compilés */
+    "baseUrl": "./",                             /* Spécifie le répertoire de base pour la résolution des modules */
+    "paths": {
+      "@/*": ["src/*"]                           /* Permet des imports plus courts à partir du dossier src */
+    }
+  },
+  "include": [
+    "src/**/*"                                   /* Inclut tous les fichiers dans le dossier src */
+  ],
+  "exclude": [
+    "node_modules"                               /* Exclut le dossier node_modules */
+  ]
+}

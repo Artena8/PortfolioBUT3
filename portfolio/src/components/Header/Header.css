@@ -1,0 +1,102 @@
+header {
+    color : var(--primary);
+}
+
+header .menu{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: var(--dark);
+    display: flex;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .menu h3 {
+    color: var(--light);
+    align-items: middle;
+}
+
+header a{
+    width: 12%;
+    margin-left: 45px;
+    float: left;
+    color: var(--light);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 15px 0px 15px;
+}
+
+header a:hover{
+    color: var(--secondary);
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+header ul::after{
+    content: "";
+    clear: both;
+}
+
+header .MENOS {
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 1320px) {
+.menu h3 {
+    width: 70%;
+    text-align: center;
+    }
+.menu a {
+    display: none;
+    }
+.menu a.MENOS {
+    display: flex;
+    font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+.menu.responsive {
+    -webkit-animation: bounce-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: bounce-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    position: fixed;
+    flex-direction: column;
+    }
+.menu.responsive .MENOS {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 180%;
+    }
+.menu.responsive h3{
+    display: none;
+    }
+.menu.responsive a:not(.MENOS) {
+    display: inline-flex;
+    padding: 5px;
+    width: 50%;
+    border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header .menu{
+    border-radius: 1px;
+    }
+    
+    header .menu.responsive{
+    border-radius: 1px;
+    }
+
+    header a:hover{
+    box-shadow: none;
+    color: var(--white);
+    transition: none;
+    }
+}
